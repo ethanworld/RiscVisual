@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-app", // 任务名称
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-O0", "-g", "readelf.c"],
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
